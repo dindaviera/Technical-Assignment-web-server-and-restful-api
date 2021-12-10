@@ -1,0 +1,40 @@
+1. Apa perbedaan antara static web server dan dynamic web server?
+Jawaban : 
+Static Web Server : website2 company profile, portofolio, tidak ada perubahan data, data yg disimpan itu merupakan data static web server, 
+tidak ada processing data di dalam web server
+Dynamic web server : HTML yg kita tampilkan itu memiliki data yg dinamis.
+contoh : kita akses sosial media (ig, fb, twitter) tampilannya sama tp datanya berbeda setiap orang
+
+2. Jelaskan arsitektur static site dan dynamic site
+Jawaban : 
+-Arsitektur static site : file(html, css, javascript) yang masuk akan diteruskan ke web server kemudian dari web server, kemudian HTTP akan mengirmkan request ataupun respon kepada browser 
+-Arsitektur dinamic site : klien web memberi request tertentu lalu web server akan membaca permintaan tersebut, maka web server akan menugaskan untuk mem-parse kode yang akan menangani request.
+Setelah kode di-parse maka web server akan memberikan hasil request dalam bentuk yang dapat dibaca oleh klien. Klien akan membaca hasil request melalui web browser. 
+
+3. Apa saja yang dapat kita buat pada sisi server?
+Jawaban : 
+	-Customize user experience 
+	-Controlled access to content 
+	-Store session
+    -Notification and communicatio
+
+4. Mohon jelaskan apa itu RESTful?
+Jawaban : 
+RESTful API / REST API merupakan penerapan dari API (Application Programming Interface). Sedangkan REST (Representional State Transfer) adalah 
+sebuah arsitektur metode komunikasi yang menggunakan protokol HTTP untuk pertukaran data dimana metode ini sering diterapkan dalam pengembangan 
+aplikasi. 
+
+
+5. Apa saja jenis HTTP verbs yang ada (jelaskan fungsinya masing-masing)
+Jawaban : 
+GET — mengambil data tertentu berdasarkan id ataupun mengambil seluruh data
+POST — membuat data baru
+PUT — memperbarui data berdasarkan id 
+DELETE — menghapus data tertentu berdasarkan id
+
+
+6. Apa fungsi dari Response Codes?
+Jawaban : 
+membantu mengidentifikasikan masalah ketika ada sebuah halaman web atau resource yang tidak termuat dengan benar.
+
+
